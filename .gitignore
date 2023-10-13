@@ -1,0 +1,5 @@
+docs/
+zig-cache/
+zig-out/
+*.a
+*.o

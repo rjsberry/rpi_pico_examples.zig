@@ -1,0 +1,6 @@
+.{
+    .target = "rp2040",
+    .interface = "cmsis-dap",
+    .adapter_speed = 5000,
+    .gdb = "arm-none-eabi-gdb",
+}

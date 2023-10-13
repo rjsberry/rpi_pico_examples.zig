@@ -1,0 +1,18 @@
+.{
+    .name = "rpi_pico_examples",
+    .version = "0.1.0",
+    .dependencies = .{
+        .rp2040 = .{
+            .url = "https://github.com/rjsberry/rpi_pico.zig/archive/473e797fcc1a890aa13299ebdd22526eb5618193.tar.gz",
+            .hash = "1220105e29789c9ff7f6f91ce321bfa581d32c77c020cf9813b0eb59c7d3a7b8db1d",
+        },
+        .rtt = .{
+            .url = "https://github.com/rjsberry/rtt.zig/archive/530dbc275591ba9c86534513687fdfa780328b4f.tar.gz",
+            .hash = "12208dda7138da74f5a1b832b5d1c7cb6675135e9e3a723e2753a8e64d5abe292c2c",
+        },
+        .xrun = .{
+            .url = "https://github.com/rjsberry/xrun.zig/archive/59eccd89c3352e4af963caa2d667a80ccf80e017.tar.gz",
+            .hash = "1220f8492d6b563b3e54a2f4bb467aa25502f0eaaea6057f91852f5e732ffe238b01",
+        },
+    },
+}
